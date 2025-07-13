@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d7eec2ff-8b3c-4316-bd49-ad68b7472b5a" name="Default Changelist" comment="完成项目的创建、依赖关系处理、打包插件">
+      <change afterPath="$PROJECT_DIR$/coin-common/src/main/java/com/bjsxt/aspect/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coin-common/src/main/java/com/bjsxt/aspect/WebLogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coin-common/src/main/java/com/bjsxt/config/feign/OAuth2FeignConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coin-common/src/main/java/com/bjsxt/config/jackson/JacksonConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coin-common/src/main/java/com/bjsxt/config/jetcache/JetCacheConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coin-common/src/main/java/com/bjsxt/config/mybatisplus/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coin-common/src/main/java/com/bjsxt/config/redis/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coin-common/src/main/java/com/bjsxt/config/resource/ResourceServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coin-common/src/main/java/com/bjsxt/config/swagger/SwaggerAutoConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coin-common/src/main/java/com/bjsxt/config/swagger/SwaggerProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coin-common/src/main/java/com/bjsxt/constant/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coin-common/src/main/java/com/bjsxt/domain/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coin-common/src/main/java/com/bjsxt/handler/AutoFillHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coin-common/src/main/java/com/bjsxt/mapper/ConfigMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coin-common/src/main/java/com/bjsxt/model/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coin-common/src/main/java/com/bjsxt/model/WebLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coin-common/src/main/java/com/bjsxt/service/ConfigService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coin-common/src/main/java/com/bjsxt/service/impl/ConfigServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coin-common/src/main/java/com/bjsxt/util/IpUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coin-common/src/main/resources/coinexchange.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coin-common/src/main/resources/mappers/ConfigMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coin-iaas/authorization-server/src/main/java/com/bjsxt/AuthorizationApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coin-iaas/authorization-server/src/main/java/com/bjsxt/config/AuthorizationServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coin-iaas/authorization-server/src/main/java/com/bjsxt/config/ResourceServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coin-iaas/authorization-server/src/main/java/com/bjsxt/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coin-iaas/authorization-server/src/main/java/com/bjsxt/constant/LoginConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coin-iaas/authorization-server/src/main/java/com/bjsxt/controller/UserInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coin-iaas/authorization-server/src/main/java/com/bjsxt/service/impl/UserServiceDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coin-iaas/authorization-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coin-iaas/authorization-server/src/main/resources/coinexchange.jks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coin-iaas/gateway-server/src/main/java/com/bjsxt/GatewayServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coin-iaas/gateway-server/src/main/java/com/bjsxt/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coin-iaas/gateway-server/src/main/java/com/bjsxt/controller/GatewayFlowRulesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coin-iaas/gateway-server/src/main/java/com/bjsxt/filter/JwtCheckFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coin-iaas/gateway-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coin-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/coin-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coin-iaas/authorization-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/coin-iaas/authorization-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coin-iaas/gateway-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/coin-iaas/gateway-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="D:\maven\apache-maven-3.5.4" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.5.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+        <option name="workspaceImportForciblyTurnedOn" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="1ft4sdtRmOCpc1RqC5i2FTntW01" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.coin-exchange [clean].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.AuthorizationApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.GatewayServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Administrator/Downloads/MyBatisCodeHelper-Pro-3.2.9.zip&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\codeproject\javaproject\coinexchange\coin-exchange\coin-common" />
+      <recent name="D:\codeproject\javaproject\coinexchange\coin-exchange\coin-iaas\gateway-server" />
+      <recent name="D:\codeproject\javaproject\coinexchange\coin-exchange\coin-iaas\authorization-server" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.GatewayServerApplication">
+    <configuration name="AuthorizationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="authorization-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bjsxt.AuthorizationApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bjsxt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="gateway-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bjsxt.GatewayServerApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bjsxt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.GatewayServerApplication" />
+        <item itemvalue="Spring Boot.AuthorizationApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18968.26" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18968.26" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d7eec2ff-8b3c-4316-bd49-ad68b7472b5a" name="Default Changelist" comment="" />
+      <created>1597024262055</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597024262055</updated>
+      <workItem from="1597024263263" duration="13220000" />
+      <workItem from="1752134957769" duration="452000" />
+      <workItem from="1752135419442" duration="4081000" />
+      <workItem from="1752160339688" duration="829000" />
+    </task>
+    <task id="LOCAL-00001" summary="完成项目的创建、依赖关系处理、打包插件">
+      <created>1597045976958</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597045976958</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="完成项目的创建、依赖关系处理、打包插件" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成项目的创建、依赖关系处理、打包插件" />
+  </component>
+</project>

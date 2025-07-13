@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="statistics-service" />
+        <module name="finance-service" />
+        <module name="admin-api" />
+        <module name="match-service" />
+        <module name="coin-task" />
+        <module name="statistics-api" />
+        <module name="coin-common" />
+        <module name="exchange-service" />
+        <module name="match-api" />
+        <module name="exchange-api" />
+        <module name="authorization-server" />
+        <module name="chan-service" />
+        <module name="gateway-server" />
+        <module name="chan-api" />
+        <module name="member-service" />
+        <module name="member-api" />
+        <module name="finance-api" />
+        <module name="admin-service" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="admin-api" options="-parameters" />
+      <module name="admin-service" options="-parameters" />
+      <module name="authorization-server" options="-parameters" />
+      <module name="chan-api" options="-parameters" />
+      <module name="chan-service" options="-parameters" />
+      <module name="coin-common" options="-parameters" />
+      <module name="coin-task" options="-parameters" />
+      <module name="exchange-api" options="-parameters" />
+      <module name="exchange-service" options="-parameters" />
+      <module name="finance-api" options="-parameters" />
+      <module name="finance-service" options="-parameters" />
+      <module name="gateway-server" options="-parameters" />
+      <module name="match-api" options="-parameters" />
+      <module name="match-service" options="-parameters" />
+      <module name="member-api" options="-parameters" />
+      <module name="member-service" options="-parameters" />
+      <module name="statistics-api" options="-parameters" />
+      <module name="statistics-service" options="-parameters" />
+    </option>
+  </component>
+</project>
