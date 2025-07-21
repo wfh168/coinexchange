@@ -24,7 +24,7 @@ import java.lang.reflect.Method;
 import java.util.HashMap;
 import java.util.Map;
 
-@Component
+//@Component
 @Aspect
 @Order(1)
 @Slf4j

@@ -1,5 +1,6 @@
 package com.bjsxt.config.feign;
 
+import com.bjsxt.constant.Constants;
 import feign.RequestInterceptor;
 import feign.RequestTemplate;
 import lombok.extern.slf4j.Slf4j;
@@ -23,14 +24,18 @@ public class OAuth2FeignConfig implements RequestInterceptor {
     public void apply(RequestTemplate template) {
         // 1 我们可以从request的上下文环境里面获取token
         RequestAttributes requestAttributes = RequestContextHolder.getRequestAttributes();
+        String header = null ;
         if (requestAttributes == null) {
-            log.info("没有请求的上下文,故无法进行token的传递");
+//            log.info("没有请求的上下文,故无法进行token的传递");
+            header = "bearer "+ Constants.INSIDE_TOKEN ;
+        }else{
+            HttpServletRequest request = ((ServletRequestAttributes) requestAttributes).getRequest();
+            header = request.getHeader(HttpHeaders.AUTHORIZATION); // 获取我们请求上下文的头里面的AUTHORIZATION
         }
-        HttpServletRequest request = ((ServletRequestAttributes) requestAttributes).getRequest();
-        String header = request.getHeader(HttpHeaders.AUTHORIZATION); // 获取我们请求上下文的头里面的AUTHORIZATION
+
         if (!StringUtils.isEmpty(header)) {
             template.header(HttpHeaders.AUTHORIZATION, header);
-            log.info("本次token传递成功,token的值为:{}", header);
+//            log.info("本次token传递成功,token的值为:{}", header);
         }
     }
 }

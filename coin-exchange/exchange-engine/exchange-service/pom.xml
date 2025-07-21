@@ -17,10 +17,36 @@
             <artifactId>exchange-api</artifactId>
             <version>1.0</version>
         </dependency>
+
+        <dependency>
+            <groupId>com.bjsxt</groupId>
+            <artifactId>match-api</artifactId>
+            <version>1.0</version>
+        </dependency>
         <dependency>
             <groupId>com.bjsxt</groupId>
             <artifactId>coin-common</artifactId>
             <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.bjsxt</groupId>
+            <artifactId>finance-api</artifactId>
+            <version>1.0</version>
+            <scope>compile</scope>
+        </dependency>
+        <!--mapStruct依赖 高性能对象映射-->
+        <dependency>
+            <groupId>org.mapstruct</groupId>
+            <artifactId>mapstruct-jdk8</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.mapstruct</groupId>
+            <artifactId>mapstruct-processor</artifactId>
+        </dependency>
+        <!--        spring-cloud-stream-rocketmq-->
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-stream-binder-rocketmq</artifactId>
         </dependency>
     </dependencies>
     <build>

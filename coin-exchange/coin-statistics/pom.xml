@@ -17,4 +17,23 @@
     </modules>
 
 
+    <dependencies>
+        <dependency>
+            <groupId>com.bjsxt</groupId>
+            <artifactId>member-api</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.bjsxt</groupId>
+            <artifactId>exchange-api</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.bjsxt</groupId>
+            <artifactId>finance-api</artifactId>
+            <version>1.0</version>
+        </dependency>
+    </dependencies>
+
+
 </project>

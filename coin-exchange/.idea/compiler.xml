@@ -14,12 +14,12 @@
         <module name="statistics-api" />
         <module name="coin-common" />
         <module name="exchange-service" />
-        <module name="match-api" />
-        <module name="exchange-api" />
-        <module name="authorization-server" />
         <module name="chan-service" />
-        <module name="gateway-server" />
+        <module name="authorization-server" />
+        <module name="exchange-api" />
+        <module name="match-api" />
         <module name="chan-api" />
+        <module name="gateway-server" />
         <module name="member-service" />
         <module name="member-api" />
         <module name="finance-api" />

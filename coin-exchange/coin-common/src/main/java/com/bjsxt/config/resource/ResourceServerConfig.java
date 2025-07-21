@@ -25,6 +25,7 @@ public class ResourceServerConfig extends ResourceServerConfigurerAdapter {
                 .sessionManagement().disable()
                 .authorizeRequests()
                 .antMatchers(
+                        "/markets/kline/**" ,
                         "/users/setPassword" ,
                         "/users/register",
                         "/sms/sendTo",

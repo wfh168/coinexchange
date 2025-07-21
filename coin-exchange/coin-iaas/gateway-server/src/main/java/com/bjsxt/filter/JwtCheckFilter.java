@@ -88,6 +88,9 @@ public class JwtCheckFilter implements GlobalFilter, Ordered {
         if(noRequireTokenUris.contains(path)){
             return false ; // 不需要token
         }
+        if(path.contains("/kline/")){
+            return false ;
+        }
         return Boolean.TRUE ;
     }
 

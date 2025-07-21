@@ -11,5 +11,11 @@
 
     <artifactId>member-api</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>com.bjsxt</groupId>
+            <artifactId>coin-common</artifactId>
+            <version>1.0</version>
+        </dependency>
+    </dependencies>
 </project>
